@@ -42,7 +42,8 @@ Shape Matcher is an engaging and fun game where players drag and drop falling sh
 
 ## Preview 📸
 <!-- Replace with an actual screenshot path -->
-
+![Image](https://github.com/user-attachments/assets/2d2f09c8-8900-4052-8837-6e300db75b7b)
+![Image](https://github.com/user-attachments/assets/3926f650-8e92-480d-b001-899288146398)
 ---
 
 ## Installation 🚀
