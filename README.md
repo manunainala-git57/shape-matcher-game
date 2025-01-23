@@ -1,4 +1,4 @@
-T# Shape Matcher Game 🎮
+# Shape Matcher Game 🎮
 
 Shape Matcher is an engaging and fun game where players drag and drop falling shapes into their respective boxes. The game challenges players to think quickly and accurately to match shapes, score points, and avoid penalties.  
 
