@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shape Matcher</title>
+  <link rel="stylesheet" href="shapematch.css">
+</head>
+<body>
+  <div class="game-container">
+      
+    <h1>Shape Matcher</h1>
+    <p id="message">Match the shapes to score points. Don't let your score hit zero!</p>
+
+    <div id="game-area">
+      <div class="shape-container" id="circle-container">Circle</div>
+      <div class="shape-container" id="square-container">Square</div>
+      <div class="shape-container" id="triangle-container">Triangle</div>
+      <div class="shape-container" id="oval-container">Oval</div>
+      <div class="shape-container" id="rectangle-container">Rectangle</div>
+      <div class="shape-container" id="diamond-container">Diamond</div>
+    </div>
+
+    <div id="stats">
+      <p>Score: <span id="score">0</span></p>
+    </div>
+
+  
+    <button id="start-btn">Start Game</button>
+
+    <div id="instructions-popup">
+      <div class="popup-content">
+        <h2>How to Play</h2>
+        <ul>
+          <li>This is a shape matcher game where shapes will fall down. Drag and drop them into the suitable shape boxes.</li>
+          <li>Correct matches will add 10 points to your score.</li>
+          <li>Incorrect matches will deduct 5 points from your score.</li>
+          <li>If a shape touches the border without being matched, 1 point will be deducted.</li>
+          <li>If your score goes below 0 , the game will end. You can replay it afterward.</li>
+        </ul>
+        <button id="close-instructions-btn">Got It!</button>
+      </div>
+    </div>
+
+   
+    <!-- Game Over Popup -->
+    <div id="game-over-popup">
+      <div class="popup-content">
+        <h2>Game Over!</h2>
+        <p>Your score hit 0.</p>
+        <button id="play-again-btn">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="shapematch.js"></script>
+</body>
+</html>
